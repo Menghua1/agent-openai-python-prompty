@@ -59,7 +59,7 @@ variable "openai_4_eval_model_name" {
 variable "openai_4_eval_model_version" {
   description = "value of azure openai model name"
   type        = string
-  default     = "0613"
+  default     = "0125-Preview"
 }
 
 variable "openai_4_eval_model_capacity" {
@@ -72,7 +72,7 @@ variable "openai_4_eval_model_capacity" {
 variable "openai_35_turbo_model_version" {
   description = "value of azure openai model version"
   type        = string
-  default     = "0613"
+  default     = "0301"
 }
 
 variable "openai_35_turbo_model_capacity" {

@@ -37,6 +37,12 @@ terraform {
       version = "=3.5.1"
     }
   }
+  backend "azurerm" {
+        resource_group_name  = "meng44"
+        storage_account_name = "chen44"
+        container_name       = "tfstate"
+        key                  = "terraform.tfstate"
+    }
 }
 
 provider "azurerm" {
